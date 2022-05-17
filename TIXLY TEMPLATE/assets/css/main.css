@@ -1,0 +1,220 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header {
+  margin-top: 40px;
+}
+
+header .header {
+  margin: 0px auto;
+  width: 1190px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: 'Montserrat', sans-serif;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .header .logo {
+  width: 80%;
+  height: 80%;
+  cursor: pointer;
+}
+
+header .header .navbar {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 350px;
+  font-size: 14px;
+  font-weight: 400;
+  cursor: pointer;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+}
+
+header .header .navbar a {
+  text-decoration: none;
+  margin-left: 40px;
+  color: #2e2e2e;
+}
+
+header .header .navbar li:hover {
+  text-decoration: underline;
+  text-underline-offset: 10px;
+}
+
+header .header .shopping_bag i {
+  width: 18px;
+  height: 24px;
+}
+
+header .header .shopping_bag span {
+  font-size: 14px;
+}
+
+header .header .shopping_bag span:hover {
+  text-decoration: underline;
+  text-underline-offset: 10px;
+}
+
+.home {
+  width: 100%;
+  height: 90vh;
+  background-image: url("https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/tixlyvnpr7/nynne-schroder-unsplash-A0xnbgZ4WxTJlN3R.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.home .container {
+  width: 100%;
+}
+
+.home .container .col-6 {
+  width: calc(100%/2);
+}
+
+.home .container .col-6 .home_text {
+  position: absolute;
+  top: 300px;
+  left: 161px;
+  width: 490px;
+  color: #2e2e2e;
+}
+
+.home .container .col-6 .home_text h1 {
+  font-family: 'Prata', serif;
+  font-size: 48px;
+  font-weight: lighter;
+}
+
+.home .container .col-6 .home_text p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  margin-top: 35px;
+  margin-bottom: 40px;
+}
+
+.home .container .col-6 .home_text button {
+  background-color: #2E2E2E;
+  color: white;
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+  width: 183px;
+  height: 51px;
+  border: 0;
+  cursor: pointer;
+}
+
+.home #baby_accessories .baby_accessories-text {
+  margin-top: 80px;
+  margin-bottom: 70px;
+  text-align: center;
+  padding: 0px 460px;
+}
+
+.home #baby_accessories .baby_accessories-text h2 {
+  font-size: 40px;
+  font-family: 'Prata', sans-serif;
+  font-weight: 500;
+  color: #2e2e2e;
+}
+
+.home #baby_accessories .baby_accessories-text p {
+  margin-top: 30px;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  color: #2e2e2e;
+}
+
+.home #baby_accessories .baby_accessories-summary {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1230px;
+  height: 70vh;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: auto;
+}
+
+.home #baby_accessories .baby_accessories-summary .accessories_button {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 163px;
+  margin: auto;
+  margin-top: -25px;
+}
+
+.home #baby_accessories .baby_accessories-summary .accessories_button .accessories_button-item {
+  height: 51px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  color: white;
+  background-color: #2e2e2e;
+  cursor: pointer;
+  border: 0px;
+  padding: 16px 48px;
+}
+
+#our_story {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#our_story .our_story-text {
+  margin-top: 200px;
+  width: 50%;
+  margin-left: 160px;
+}
+
+#our_story .our_story-text h3 {
+  font-size: 16px;
+  color: #2e2e2e;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+#our_story .our_story-text h2 {
+  margin-top: 40px;
+  font-size: 40px;
+  font-family: 'Prata', sans-serif;
+  color: #2E2E2E;
+  font-weight: 400;
+  padding-right: 195px;
+}
+
+#our_story .our_story-text p {
+  font-size: 16px;
+  color: #2e2e2e;
+  font-family: 'Montserrat', sans-serif;
+  padding-right: 270px;
+  margin-top: 30px;
+}
+
+#our_story .our_story-text .our_story-button .discover {
+  margin-top: 50px;
+  width: 171px;
+  height: 51px;
+  background-color: #2E2E2E;
+  font-size: 14px;
+  color: white;
+  border: 0;
+}
+
+#our_story img {
+  width: 400px;
+  height: 500px;
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin-top: 40px;
+
+    .header {
+        margin: 0px auto;
+        width: 1190px;
+        display: flex;
+        font-family: 'Montserrat', sans-serif;
+        justify-content: space-between;
+
+        .logo {
+            width: 80%;
+            height: 80%;
+            cursor: pointer;
+        }
+
+        .navbar {
+            list-style: none;
+            display: flex;
+            margin-left: 350px;
+            font-size: 14px;
+            font-weight: 400;
+            cursor: pointer;
+            justify-content: right;
+
+            a {
+                text-decoration: none;
+                margin-left: 40px;
+                color: #2e2e2e;
+            }
+
+            li:hover {
+                text-decoration: underline;
+                text-underline-offset: 10px;
+            }
+        }
+
+        .shopping_bag {
+            i {
+                width: 18px;
+                height: 24px;
+            }
+
+            span {
+                font-size: 14px;
+
+                &:hover {
+                    text-decoration: underline;
+                    text-underline-offset: 10px;
+                }
+            }
+
+        }
+
+    }
+}
+
+.home {
+    width: 100%;
+    height: 90vh;
+    background-image: url("https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/tixlyvnpr7/nynne-schroder-unsplash-A0xnbgZ4WxTJlN3R.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+.container{
+    width: 100%;
+
+    .col-6 {
+        width: calc(100%/2);
+
+        .home_text {
+            position: absolute;
+            top: 300px;
+            left: 161px;
+            width: 490px;
+            color: #2e2e2e;
+
+            h1 {
+                font-family: 'Prata', serif;
+                font-size: 48px;
+                font-weight: lighter;
+            }
+
+            p {
+                font-family: 'Montserrat', sans-serif;
+                font-size: 16px;
+                margin-top: 35px;
+                margin-bottom: 40px;
+            }
+
+            button {
+                background-color: #2E2E2E;
+                color: white;
+                font-size: 14px;
+                font-family: 'Montserrat', sans-serif;
+                width: 183px;
+                height: 51px;
+                border: 0;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+#baby_accessories {
+    .baby_accessories-text {
+        margin-top: 80px;
+        margin-bottom: 70px;
+        text-align: center;
+        padding: 0px 460px;
+
+        h2 {
+            font-size: 40px;
+            font-family: 'Prata', sans-serif;
+            font-weight: 500;
+            color: #2e2e2e;
+        }
+
+        p {
+            margin-top: 30px;
+            font-size: 16px;
+            font-family: 'Montserrat', sans-serif;
+            color: #2e2e2e;
+
+        }
+
+    }
+
+    .baby_accessories-summary {
+        display: flex;
+        width: 1230px;
+        height: 70vh;
+        justify-content: space-between;
+        margin: auto;
+
+        .accessories_button {
+            justify-content: center;
+            width: 163px;
+            margin: auto;
+            margin-top: -25px;
+
+            .accessories_button-item {
+                height: 51px;
+                font-family: 'Montserrat', sans-serif;
+                font-size: 14px;
+                color: white;
+                background-color: #2e2e2e;
+                cursor: pointer;
+                border: 0px;
+                padding: 16px 48px;
+            }
+
+        }
+    }
+}
+}
+
+#our_story {
+    display: flex;
+
+    .our_story-text {
+        margin-top: 200px;
+        width: 50%;
+        margin-left: 160px;
+
+        h3 {
+            font-size: 16px;
+            color: #2e2e2e;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 400;
+        }
+
+        h2 {
+            margin-top: 40px;
+            font-size: 40px;
+            font-family: 'Prata', sans-serif;
+            color: #2E2E2E;
+            font-weight: 400;
+            padding-right: 195px;
+        }
+
+        p {
+            font-size: 16px;
+            color: #2e2e2e;
+            font-family: 'Montserrat', sans-serif;
+            padding-right: 270px;
+            margin-top: 30px;
+        }
+
+        .our_story-button {
+            .discover {
+                margin-top: 50px;
+                width: 171px;
+                height: 51px;
+                background-color: #2E2E2E;
+                font-size: 14px;
+                color: white;
+                border: 0;
+            }
+        }
+    }
+
+    img {
+        width: 400px;
+        height: 500px;
+    }
+}
+
+@media screen and (max-width:920px) {}
